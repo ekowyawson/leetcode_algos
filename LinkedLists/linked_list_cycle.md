@@ -2,7 +2,7 @@
 
 > Given head, the head of a linked list, determine if the linked list has a cycle in it.
 
-To determine if a linked list has a cycle, you can use Floyd's Tortoise and Hare algorithm. This algorithm uses two pointers, one moving at twice the speed of the other. If there is a cycle in the list, the faster-moving pointer (the "hare") will eventually meet the slower-moving pointer (the "tortoise") within the cycle.
+To determine if a linked list has a cycle, you can use **Floyd's Tortoise and Hare algorithm**. This algorithm uses two pointers, one moving at twice the speed of the other. If there is a cycle in the list, the faster-moving pointer (the "hare") will eventually meet the slower-moving pointer (the "tortoise") within the cycle.
 
 Here's how you can implement this algorithm in Python:
 
